@@ -1,6 +1,9 @@
 import React from 'react';
 import { Search } from 'lucide-react';
 
+
+//RightSidebar component displays search input, trends, who to follow suggestions, and footer links
+
 const RightSidebar = ({ onSearch }) => {
   const trends = [
     { category: 'Technology', tag: '#Cybertruck', posts: '892K' },
